@@ -61,6 +61,7 @@ You can search for FAQs using the `search_faqs` method. Here’s an example of h
 ```python
 queries = "password reset"
 results = faq_system.search_faqs(queries)
+```
 
 ### Output
 The search results will be returned as a list of dictionaries containing the question, answer, and similarity score. An example output might look like this:
