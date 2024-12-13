@@ -146,6 +146,8 @@ class FAQSystem:
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             cursor.execute('SELECT question, answer FROM faqs')
+            #If you have large db, you can filter out only relative data like below 
+            #SELECT * FROM faqs WHERE question LIKE '%password%' OR question LIKE '%reset%' LIMIT 100; 
             all_faqs = cursor.fetchall()
 
         # Calculate similarities and rank
