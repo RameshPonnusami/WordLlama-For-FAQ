@@ -25,6 +25,7 @@ Clone this repository to your local machine using:
 ```bash
 git clone <repository_url>
 cd <repository_directory>
+```
 
 # WordLlama FAQ System Setup Guide
 
