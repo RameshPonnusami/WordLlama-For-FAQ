@@ -53,6 +53,7 @@ Make sure these files are correctly placed to allow WordLlama to load the model 
 ### Initialize the FAQ System
 
 To initialize the FAQ system, you will need to load a WordLlama model and provide paths to your model weights and configuration files when creating the `FAQSystem` object.
+```python run.py``` 
 
 ### Search for FAQs
 
